@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Gies Septiara | Web Developer Portfolio
+    </title>
+
+    <meta name="description"
+        content="Portfolio of Gies Septiara, Web Developer specializing in Laravel, PHP, JavaScript, and MySQL.">
+
+    <meta name="keywords"
+        content="Web Developer, Laravel Developer, PHP Developer, Front-End Developer, Full Stack Developer">
+
+    <meta property="og:title" content="Gies Septiara | Portfolio">
+
+    <meta property="og:description" content="Web Developer Portfolio">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:image" content="assets/images/profile.jpg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-slate-950 text-white overflow-x-hidden">
+
+    <!-- BACKGROUND EFFECT -->
+
+    <div class="background-blur">
+
+        <div class="blur-circle blur-blue"></div>
+
+        <div class="blur-circle blur-cyan"></div>
+
+    </div>
+
+    <!-- NAVBAR -->
+
+    <header class="fixed top-0 left-0 right-0 z-50 border-b border-slate-800 bg-slate-950/80 backdrop-blur-xl">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="h-20 flex items-center justify-between">
+
+                <a href="#home" class="font-bold text-2xl">
+
+                    Gies<span class="text-blue-500">.</span>
+
+                </a>
+
+                <nav class="hidden md:flex items-center gap-8">
+
+                    <a href="#about" class="nav-link">
+                        About
+                    </a>
+
+                    <a href="#experience" class="nav-link">
+                        Experience
+                    </a>
+
+                    <a href="#projects" class="nav-link">
+                        Projects
+                    </a>
+
+                    <a href="#publications" class="nav-link">
+                        Publications
+                    </a>
+
+                    <a href="#contact" class="nav-link">
+                        Contact
+                    </a>
+
+                </nav>
+
+                <div class="hidden md:flex items-center gap-4">
+
+                    <a href="assets/resume/Gies-Septiara-CV.pdf" target="_blank" class="primary-btn">
+
+                        Download CV
+
+                    </a>
+
+                </div>
+
+                <!-- MOBILE BUTTON -->
+
+                <button id="menu-btn" class="md:hidden text-2xl">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- MOBILE MENU -->
+
+        <div id="mobile-menu" class="hidden md:hidden border-t border-slate-800 bg-slate-950">
+
+            <div class="flex flex-col p-6 gap-4">
+
+                <a href="#about">About</a>
+
+                <a href="#experience">Experience</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#publications">Publications</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section id="home" class="min-h-screen flex items-center pt-24">
+
+        <div class="max-w-7xl mx-auto px-6 w-full">
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+                <!-- LEFT -->
+
+                <div data-aos="fade-right">
+
+                    <span
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm">
+
+                        <i class="fa-solid fa-code"></i>
+
+                        Open To Work
+
+                    </span>
+
+                    <h1 class="mt-6 text-5xl md:text-7xl font-extrabold leading-tight">
+
+                        Gies
+                        <span class="gradient-text">
+                            Septiara
+                        </span>
+
+                    </h1>
+
+                    <h2 class="mt-4 text-2xl md:text-4xl font-bold">
+
+                        <span class="gradient-text" data-typing>
+
+                        </span>
+
+                    </h2>
+
+                    <p class="mt-8 text-slate-400 text-lg leading-relaxed max-w-2xl">
+
+                        Fresh Graduate in Informatics from
+                        Universitas Negeri Padang with
+                        hands-on experience developing
+                        government information systems,
+                        web applications, and research-based
+                        software solutions using Laravel,
+                        PHP, JavaScript, and MySQL.
+
+                    </p>
+
+                    <div class="flex flex-wrap gap-4 mt-10">
+
+                        <a href="#projects" class="primary-btn">
+
+                            View Projects
+
+                        </a>
+
+                        <a href="#contact" class="secondary-btn">
+
+                            Contact Me
+
+                        </a>
+
+                    </div>
+
+                    <!-- SOCIAL -->
+
+                    <div class="flex gap-5 mt-10">
+
+                        <a href="https://github.com/giesseptiara" target="_blank" class="social-link">
+
+                            <i class="fab fa-github"></i>
+
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/gies-septiara" target="_blank" class="social-link">
+
+                            <i class="fab fa-linkedin"></i>
+
+                        </a>
+
+                        <a href="mailto:giesrubby@gmail.com" class="social-link">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT -->
+
+                <div data-aos="fade-left" class="flex justify-center">
+
+                    <div class="profile-card">
+
+                        <img src="assets/images/profile.jpg" alt="Gies Septiara" class="profile-image">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+
+        <div class="container-custom">
+
+            <div class="grid lg:grid-cols-2 gap-16">
+
+                <div data-aos="fade-up">
+
+                    <span class="section-badge">
+                        About Me
+                    </span>
+
+                    <h2 class="section-title">
+
+                        Building Web Solutions
+                        That Create Impact
+
+                    </h2>
+
+                    <p class="section-text">
+
+                        I am a Web Developer with a strong
+                        interest in building modern,
+                        responsive, and user-friendly
+                        web applications.
+
+                    </p>
+
+                    <p class="section-text">
+
+                        Through academic projects,
+                        internship experience, and research,
+                        I have developed practical skills in
+                        designing, developing, testing,
+                        and deploying web-based systems.
+
+                    </p>
+
+                    <p class="section-text">
+
+                        I enjoy solving real-world problems,
+                        improving user experiences,
+                        and continuously learning new
+                        technologies in web development.
+
+                    </p>
+
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="150">
+
+                    <div class="glass-card">
+
+                        <div class="info-item">
+
+                            <span>Name</span>
+
+                            <strong>
+                                Gies Septiara
+                            </strong>
+
+                        </div>
+
+                        <div class="info-item">
+
+                            <span>Degree</span>
+
+                            <strong>
+                                Bachelor of Informatics
+                            </strong>
+
+                        </div>
+
+                        <div class="info-item">
+
+                            <span>University</span>
+
+                            <strong>
+                                Universitas Negeri Padang
+                            </strong>
+
+                        </div>
+
+                        <div class="info-item">
+
+                            <span>GPA</span>
+
+                            <strong>
+                                3.54 / 4.00
+                            </strong>
+
+                        </div>
+
+                        <div class="info-item">
+
+                            <span>Focus</span>
+
+                            <strong>
+                                Web Development
+                            </strong>
+
+                        </div>
+
+                        <div class="info-item">
+
+                            <span>Location</span>
+
+                            <strong>
+                                West Sumatra, Indonesia
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience" class="section">
+
+        <div class="container-custom">
+
+            <div data-aos="fade-up">
+
+                <span class="section-badge">
+
+                    Experience
+
+                </span>
+
+                <h2 class="section-title">
+
+                    Professional Experience
+
+                </h2>
+
+            </div>
+
+            <div class="timeline mt-16">
+
+                <div class="timeline-item" data-aos="fade-up">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-date">
+
+                            Jul 2025 – Sep 2025
+
+                        </span>
+
+                        <h3>
+
+                            Web Developer Intern
+
+                        </h3>
+
+                        <h4>
+
+                            ICT Division –
+                            West Sumatra Regional Police
+
+                        </h4>
+
+                        <ul>
+
+                            <li>
+                                Contributed to the development
+                                of E-Lambuang web platform.
+                            </li>
+
+                            <li>
+                                Participated in development of
+                                PPID Polda Sumbar website.
+                            </li>
+
+                            <li>
+                                Developed and maintained
+                                features using Laravel,
+                                PHP, JavaScript and MySQL.
+                            </li>
+
+                            <li>
+                                Collaborated on requirement
+                                gathering, testing,
+                                and deployment.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="section">
+
+        <div class="container-custom">
+
+            <div data-aos="fade-up">
+
+                <span class="section-badge">
+                    Featured Projects
+                </span>
+
+                <h2 class="section-title">
+                    Projects I've Built
+                </h2>
+
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8 mt-16">
+
+                <!-- E-LAMBUANG -->
+
+                <a href="https://e-lambuang.net/" target="_blank" class="project-card" data-aos="fade-up">
+
+                    <img src="assets/images/project1.png" alt="E-Lambuang">
+
+                    <div class="project-content">
+
+                        <div class="flex justify-between items-center">
+
+                            <h3>
+                                E-Lambuang
+                            </h3>
+
+                            <span class="live-badge">
+                                LIVE
+                            </span>
+
+                        </div>
+
+                        <p>
+
+                            Digital rice distribution
+                            management platform developed
+                            during internship at Polda
+                            Sumbar.
+
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>Laravel</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+
+                        </div>
+
+                        <div class="project-link">
+
+                            Visit Website
+
+                            <i class="fa-solid fa-arrow-up-right-from-square">
+                            </i>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+                <!-- PPID -->
+
+                <a href="https://ppid-polda-sumbar.vercel.app" target="_blank" class="project-card" data-aos="fade-up"
+                    data-aos-delay="100">
+
+                    <img src="assets/images/project2.png" alt="PPID">
+
+                    <div class="project-content">
+
+                        <div class="flex justify-between items-center">
+
+                            <h3>
+                                PPID Polda Sumbar
+                            </h3>
+
+                            <span class="live-badge">
+                                LIVE
+                            </span>
+
+                        </div>
+
+                        <p>
+
+                            Public information portal
+                            designed to improve
+                            transparency and information
+                            accessibility.
+
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>Laravel</span>
+                            <span>JavaScript</span>
+                            <span>MySQL</span>
+
+                        </div>
+
+                        <div class="project-link">
+
+                            Visit Website
+
+                            <i class="fa-solid fa-arrow-up-right-from-square">
+                            </i>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+                <!-- THESIS -->
+
+                <div class="project-card" data-aos="fade-up">
+
+                    <img src="assets/images/project3.png" alt="Digital Archive">
+
+                    <div class="project-content">
+
+                        <h3>
+                            Digital Archive Management System
+                        </h3>
+
+                        <p>
+
+                            Final thesis project featuring
+                            TF-IDF document retrieval,
+                            archive management,
+                            workflow monitoring,
+                            and document search optimization.
+
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>TF-IDF</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- MIDWIFE -->
+
+                <div class="project-card" data-aos="fade-up">
+
+                    <img src="assets/images/project4.png" alt="Village Midwife">
+
+                    <div class="project-content">
+
+                        <h3>
+                            Village Midwife Information System
+                        </h3>
+
+                        <p>
+
+                            Healthcare administration
+                            information system with
+                            responsive design and
+                            integrated database management.
+
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>PHP</span>
+                            <span>JavaScript</span>
+                            <span>MySQL</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PUBLICATIONS -->
+
+    <section id="publications" class="section">
+
+        <div class="container-custom">
+
+            <div data-aos="fade-up">
+
+                <span class="section-badge">
+                    Publications
+                </span>
+
+                <h2 class="section-title">
+
+                    Research & Publications
+
+                </h2>
+
+            </div>
+
+            <div class="space-y-8 mt-16">
+
+                <div class="glass-card" data-aos="fade-up">
+
+                    <div class="flex flex-wrap gap-3 mb-4">
+
+                        <span class="publication-badge">
+                            SINTA 4
+                        </span>
+
+                        <span class="publication-badge">
+                            First Author
+                        </span>
+
+                    </div>
+
+                    <h3 class="publication-title">
+
+                        Design and Development of a Digital
+                        Archive Management System with
+                        TF-IDF-Based Document Search Feature
+
+                    </h3>
+
+                    <p class="publication-meta">
+
+                        JATI (Jurnal Mahasiswa Teknik Informatika)
+                        Vol. 10 No. 2 (2026)
+
+                    </p>
+
+                    <a href="https://doi.org/10.36040/jati.v10i2.18233" target="_blank" class="publication-link">
+
+                        View DOI Publication
+
+                    </a>
+
+                </div>
+
+                <div class="glass-card" data-aos="fade-up">
+
+                    <h3 class="publication-title">
+
+                        Exploration of Tourism Potential in
+                        Nagari Pasilihan
+
+                    </h3>
+
+                    <p class="publication-meta">
+
+                        Jurnal Kajian Pariwisata dan Perhotelan
+                        Vol. 3 No. 1 (2025)
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section">
+
+        <div class="container-custom">
+
+            <div data-aos="fade-up">
+
+                <span class="section-badge">
+
+                    Skills
+
+                </span>
+
+                <h2 class="section-title">
+
+                    Technologies & Tools
+
+                </h2>
+
+            </div>
+
+            <div class="skills-grid mt-16">
+
+                <div class="skill-card">
+                    HTML
+                </div>
+
+                <div class="skill-card">
+                    CSS
+                </div>
+
+                <div class="skill-card">
+                    JavaScript
+                </div>
+
+                <div class="skill-card">
+                    Tailwind CSS
+                </div>
+
+                <div class="skill-card">
+                    PHP
+                </div>
+
+                <div class="skill-card">
+                    Laravel
+                </div>
+
+                <div class="skill-card">
+                    MySQL
+                </div>
+
+                <div class="skill-card">
+                    Git
+                </div>
+
+                <div class="skill-card">
+                    GitHub
+                </div>
+
+                <div class="skill-card">
+                    VS Code
+                </div>
+
+                <div class="skill-card">
+                    Laragon
+                </div>
+
+                <div class="skill-card">
+                    Responsive Design
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- EDUCATION -->
+
+    <section class="section">
+
+        <div class="container-custom">
+
+            <div class="glass-card">
+
+                <h2 class="text-3xl font-bold mb-6">
+
+                    Education
+
+                </h2>
+
+                <h3 class="text-xl font-semibold">
+
+                    Bachelor of Informatics
+
+                </h3>
+
+                <p class="text-slate-400 mt-2">
+
+                    Universitas Negeri Padang
+
+                </p>
+
+                <p class="text-slate-400">
+
+                    GPA 3.54 / 4.00
+
+                </p>
+
+                <p class="text-slate-400">
+
+                    2022 – 2026
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CERTIFICATION -->
+
+    <section class="section">
+
+        <div class="container-custom">
+
+            <div class="glass-card">
+
+                <h2 class="text-3xl font-bold mb-6">
+
+                    Certifications
+
+                </h2>
+
+                <h3>
+
+                    Dicoding Indonesia
+
+                </h3>
+
+                <ul class="mt-4 space-y-2 text-slate-400">
+
+                    <li>
+                        Web Development Learning Program
+                    </li>
+
+                    <li>
+                        Software Development Fundamentals
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section">
+
+        <div class="container-custom text-center">
+
+            <span class="section-badge">
+
+                Contact
+
+            </span>
+
+            <h2 class="section-title">
+
+                Let's Build Something Together
+
+            </h2>
+
+            <p class="max-w-2xl mx-auto text-slate-400">
+
+                Currently open for Internship,
+                Junior Web Developer,
+                Front-End Developer,
+                and Full Stack Developer opportunities.
+
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-4 mt-10">
+
+                <a href="mailto:giesrubby@gmail.com" class="primary-btn">
+
+                    Email Me
+
+                </a>
+
+                <a href="https://github.com/giesseptiara" target="_blank" class="secondary-btn">
+
+                    GitHub
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/gies-septiara" target="_blank" class="secondary-btn">
+
+                    LinkedIn
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="border-t border-slate-800 py-8">
+
+        <div class="container-custom text-center">
+
+            <p class="text-slate-500">
+
+                © 2026 Gies Septiara.
+                Built with HTML, CSS,
+                JavaScript & Tailwind CSS.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js">
+    </script>
+
+    <script>
+        AOS.init({
+            duration: 900,
+            once: true
+        });
+    </script>
+
+    <script src="js/main.js">
+    </script>
+
+</body>
+
+</html>
