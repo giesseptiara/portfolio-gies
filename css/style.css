@@ -753,3 +753,57 @@ footer {
     color:#60a5fa;
     border-color:#60a5fa;
 }
+
+
+/* ===========================
+   CV Dropdown
+=========================== */
+
+.cv-dropdown{
+    position:relative;
+    display:inline-block;
+}
+
+.cv-menu{
+    position:absolute;
+    top:110%;
+    left:0;
+    min-width:220px;
+    background:#0f172a;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:14px;
+    overflow:hidden;
+
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(10px);
+
+    transition:.3s;
+    z-index:100;
+}
+
+.cv-dropdown:hover .cv-menu{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+}
+
+.cv-menu a{
+
+    display:block;
+
+    padding:14px 18px;
+
+    color:#fff;
+
+    transition:.25s;
+
+}
+
+.cv-menu a:hover{
+
+    background:#1e293b;
+
+    padding-left:24px;
+
+}

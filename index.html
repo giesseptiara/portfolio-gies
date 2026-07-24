@@ -90,13 +90,35 @@
 
                 </nav>
 
-                <div class="hidden md:flex items-center gap-4">
+                <div class="cv-dropdown">
 
-                    <a href="assets/resume/Gies-Septiara-CV.pdf" target="_blank" class="primary-btn">
+                    <button class="primary-btn cv-btn">
+
+                        <i class="fa-solid fa-download"></i>
 
                         Download CV
 
-                    </a>
+                        <i class="fa-solid fa-chevron-down text-xs"></i>
+
+                    </button>
+
+                    <div class="cv-menu">
+
+                        <a href="assets/cv/CV_Gies_Septiara_EN.pdf"
+                        download>
+
+                            🇬🇧 English Version
+
+                        </a>
+
+                        <a href="assets/cv/CV_Gies_Septiara_ID.pdf"
+                        download>
+
+                            🇮🇩 Bahasa Indonesia
+
+                        </a>
+
+                    </div>
 
                 </div>
 
@@ -903,41 +925,93 @@
 
     <!-- CERTIFICATION -->
 
-    <section class="section">
+    <section id="certifications" class="section">
 
-        <div class="container-custom">
+    <div class="container-custom">
 
-            <div class="glass-card">
+        <div data-aos="fade-up">
 
-                <h2 class="text-3xl font-bold mb-6">
+            <span class="section-badge">
+                Certifications
+            </span>
 
-                    Certifications
+            <h2 class="section-title">
+                Courses & Certifications
+            </h2>
 
-                </h2>
+        </div>
 
-                <h3>
+        <div class="grid lg:grid-cols-2 gap-8 mt-16">
 
-                    Dicoding Indonesia
+            <!-- Linux -->
 
+            <div class="glass-card" data-aos="fade-up">
+
+                <h3 class="publication-title">
+                    Fundamental Command Linux
                 </h3>
 
-                <ul class="mt-4 space-y-2 text-slate-400">
+                <p class="publication-meta">
+                    Dicoding Indonesia • 2024
+                </p>
 
-                    <li>
-                        Web Development Learning Program
-                    </li>
+                <div class="tech-stack">
 
-                    <li>
-                        Software Development Fundamentals
-                    </li>
+                    <span>Linux</span>
+                    <span>CLI</span>
+                    <span>Terminal</span>
 
-                </ul>
+                </div>
+
+                <a href="assets/certificates/dicoding_linux.pdf"
+                   target="_blank"
+                   class="publication-link">
+
+                    <i class="fa-solid fa-certificate"></i>
+                    View Certificate
+
+                </a>
+
+            </div>
+
+            <!-- Pentest -->
+
+            <div class="glass-card"
+                 data-aos="fade-up"
+                 data-aos-delay="100">
+
+                <h3 class="publication-title">
+                    Fundamental Penetration Testing
+                </h3>
+
+                <p class="publication-meta">
+                    Dicoding Indonesia • 2024
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>Cyber Security</span>
+                    <span>Penetration Testing</span>
+                    <span>Network Security</span>
+
+                </div>
+
+                <a href="assets/certificates/dicoding_testing.pdf"
+                   target="_blank"
+                   class="publication-link">
+
+                    <i class="fa-solid fa-certificate"></i>
+                    View Certificate
+
+                </a>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
     <!-- CONTACT -->
 
